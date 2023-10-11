@@ -1,0 +1,67 @@
+#new{
+    width: 440px;
+    height: 80px;
+    background-color:  rgb(1, 252, 177);
+    color: rgb(92, 11, 11);
+    font-size: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 2px rgb(27, 133, 119);
+   
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: linear-gradient(0deg, rgba(55,224,226,1) 12%, rgb(97, 248, 130) 91%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#nums{
+    display: none;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    
+    
+    
+}
+.nums2{
+    display: block;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    color: rgb(3, 110, 39);
+    box-shadow: 0 3px 2px rgb(27, 133, 119);
+    background-color: rgb(1, 252, 177);
+}
+.keyy{
+    color: blue;
+}
+#output{
+    font-size: 2.5rem;
+    color: rgb(3, 110, 39);
+}
+.historyy{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 170px;
+    overflow-y: scroll;
+    color: rgb(3, 110, 39);
+    box-shadow: 0 3px 2px rgb(27, 133, 119);
+    background-color: rgb(1, 252, 177);
+}
